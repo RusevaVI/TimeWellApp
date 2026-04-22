@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct View1: View {
+struct TimeSetting: View {
     @State private var hours = 0
     @State private var minutes = 0
     @State private var seconds = 0
@@ -47,7 +47,7 @@ struct View1: View {
                 }
                 .pickerStyle(.wheel)
                 
-                NavigationLink(destination: View2(hours: hours, minutes: minutes, seconds: seconds)) {
+                NavigationLink(destination: MainView(hours: hours, minutes: minutes, seconds: seconds)) {
                     Text("Подтвердить")
                         .font(.rubikTitle(size: 20))
                         .foregroundStyle(.white)
@@ -61,7 +61,4 @@ struct View1: View {
         
     }
     
-}
-#Preview {
-    View1()
 }

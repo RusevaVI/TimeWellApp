@@ -1,6 +1,7 @@
 import SwiftUI
 import Combine
-struct View2: View {
+
+struct MainView: View {
     let hours: Int
     let minutes: Int
     let seconds: Int
@@ -111,6 +112,3 @@ struct View2: View {
     }
 }
 
-#Preview {
-    View2(hours: 0, minutes:0, seconds: 0)
-}
