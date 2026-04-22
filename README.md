@@ -29,7 +29,7 @@ TimeWellApp/
 │
 ├── Assets.xcassets/
 │   ├── Colors/                     // customBrown, customPink, customBeige
-│   ├── Images/                     // happyCat, cryCat
+│   ├── Images/                     // happyCat, cryCat, cat
 │   └── Videos/                     // cat.mov, star.mov
 │
 └── TimeWellApp.swift               // entry point приложения
