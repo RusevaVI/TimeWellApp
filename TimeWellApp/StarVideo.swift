@@ -19,4 +19,4 @@ struct StarVideoView: View {
             .disabled(true)
             .ignoresSafeArea()
     }
-}
+} 

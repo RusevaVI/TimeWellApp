@@ -61,4 +61,4 @@ struct TimeSetting: View {
         
     }
     
-}
+} 

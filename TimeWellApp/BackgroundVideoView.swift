@@ -19,4 +19,4 @@ struct BackgroundVideoView: View {
             .disabled(true)
             .ignoresSafeArea()
     }
-}
+} 
