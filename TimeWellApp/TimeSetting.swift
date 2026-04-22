@@ -7,7 +7,7 @@ struct TimeSetting: View {
     
     var body: some View {
         ZStack {
-            Color("03")
+            Color("customBeige")
                 .ignoresSafeArea()
             VStack {
                 Text("Сколько планируешь не брать телефон?")
@@ -53,7 +53,7 @@ struct TimeSetting: View {
                         .foregroundStyle(.white)
                 }
                 .buttonStyle(.borderedProminent)
-                .tint(Color("01"))
+                .tint(Color("customBrown"))
                 .disabled(hours == 0 && minutes == 0 && seconds == 0)
                 .opacity(hours == 0 && minutes == 0 && seconds == 0 ? 0.5 : 1)
             }

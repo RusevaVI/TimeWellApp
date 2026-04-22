@@ -1,7 +1,7 @@
 import SwiftUI
 import AVKit
 struct StarVideoView: View {
-    @State private var player = AVPlayer(url: Bundle.main.url(forResource: "g2", withExtension: "mov")!)
+    @State private var player = AVPlayer(url: Bundle.main.url(forResource: "star", withExtension: "mov")!)
 
     var body: some View {
         VideoPlayer(player: player)

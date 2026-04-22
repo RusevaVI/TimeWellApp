@@ -6,7 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FD0C61DC2F9905A50027D265 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FD0C61DB2F9905990027D265 /* README.md */; };
+		FD0C61E02F9908B50027D265 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0C61DF2F9908B50027D265 /* start.png */; };
+		FD0C61E22F9909220027D265 /* time_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0C61E12F9909220027D265 /* time_setting.png */; };
+		FD0C61E42F9909410027D265 /* fail.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0C61E32F9909410027D265 /* fail.png */; };
+		FD0C61E62F9909700027D265 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0C61E52F9909700027D265 /* success.png */; };
+		FD0C61E82F99097C0027D265 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0C61E72F99097C0027D265 /* timer.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		FD0C61DB2F9905990027D265 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FD0C61DF2F9908B50027D265 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		FD0C61E12F9909220027D265 /* time_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_setting.png; sourceTree = "<group>"; };
+		FD0C61E32F9909410027D265 /* fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fail.png; sourceTree = "<group>"; };
+		FD0C61E52F9909700027D265 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		FD0C61E72F99097C0027D265 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
 		FD22036A2F6C6E9300C83FFA /* TimeWellApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeWellApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -42,11 +57,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD0C61DE2F99088D0027D265 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C61E32F9909410027D265 /* fail.png */,
+				FD0C61E52F9909700027D265 /* success.png */,
+				FD0C61DF2F9908B50027D265 /* start.png */,
+				FD0C61E72F99097C0027D265 /* timer.png */,
+				FD0C61E12F9909220027D265 /* time_setting.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		FD2203612F6C6E9300C83FFA = {
 			isa = PBXGroup;
 			children = (
 				FD22036C2F6C6E9300C83FFA /* TimeWellApp */,
 				FD22036B2F6C6E9300C83FFA /* Products */,
+				FD0C61DB2F9905990027D265 /* README.md */,
+				FD0C61DE2F99088D0027D265 /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +151,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0C61E62F9909700027D265 /* success.png in Resources */,
+				FD0C61E82F99097C0027D265 /* timer.png in Resources */,
+				FD0C61E02F9908B50027D265 /* start.png in Resources */,
+				FD0C61E22F9909220027D265 /* time_setting.png in Resources */,
+				FD0C61E42F9909410027D265 /* fail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0C61DC2F9905A50027D265 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

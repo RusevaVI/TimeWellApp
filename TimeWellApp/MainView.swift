@@ -25,7 +25,7 @@ struct MainView: View {
                     .shadow(color: .black.opacity(0.3), radius: 5, x: 0, y: 3)
                 Text("Ты не справился")
                     .multilineTextAlignment(.center)
-                    .foregroundColor(Color("01"))
+                    .foregroundColor(Color("customBrown"))
                     .font(.rubikTitle(size: 30))
                 Spacer()
             } else if timeRemaining == 0 {
@@ -39,7 +39,7 @@ struct MainView: View {
                         
                         Text("Ты молодец!")
                             .font(.rubikBold(size: 60))
-                            .foregroundColor(Color("02"))
+                            .foregroundColor(Color("customPink"))
                         Image("happyCat")
                             .resizable()
                             .scaledToFit()
@@ -54,11 +54,11 @@ struct MainView: View {
                 VStack(spacing: 10) {
                     Text("Осталось:")
                         .font(.rubikTitle(size: 30))
-                        .foregroundStyle(Color("01"))
+                        .foregroundStyle(Color("customBrown"))
                     
                     Text(formatTime(timeRemaining))
                         .font(.rubikBold(size: 60))
-                        .foregroundStyle(Color("01"))
+                        .foregroundStyle(Color("customBrown"))
                     BackgroundVideoView()
                         .aspectRatio(contentMode: .fill)
                         .frame(maxWidth: .infinity)
@@ -67,9 +67,6 @@ struct MainView: View {
                         .clipped()
                         .padding(.leading,70)
                 }
-                     
-                
-                
             }
         }
         .padding()

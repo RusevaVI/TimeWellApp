@@ -12,25 +12,18 @@ struct ContentView: View {
                 Text("Добро пожаловать")
                     .font(.rubikTitle(size: 30))
                 
-                
                 NavigationLink {
-                    View1()
+                    TimeSetting()
                 } label: {
                    Text("Начать")
                         .foregroundColor(Color.white)
                         .font(.rubikTitle(size: 25))
                         .padding(15)
-                        .background(Color("02"))
+                        .background(Color("customPink"))
                         .cornerRadius(30)
                 }
-                
             }
-            
             .padding()
         }
     }
-}
-
-#Preview {
-    ContentView()
 }
